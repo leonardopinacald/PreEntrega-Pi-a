@@ -284,7 +284,7 @@ main .login{
     main .oferta .carousel-item {
         width: 100%;
         margin: 0 auto;
-        padding: 0; 
+        padding: 1px; 
     }
     main .destacados .brands .img1{
         margin: 1rem;
