@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(49, 49, 49);
+    background-color: #2b3035;
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ main .destacados .prod {
 
 }
 .destacados .prod a {
-    color:  white;
+    color:  #2b3035;
     margin: auto;
     text-decoration: none;
     text-size-adjust: 30px;
@@ -86,7 +86,7 @@ main .destacados .brands {
 main .destacados .brands h3{
     margin: 0 auto;
     padding: 2rem;
-    color: white;
+    color: #2b3035;
 }
 
 
@@ -102,7 +102,7 @@ footer{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    color: white;
+    color: #2b3035;
 }
  
 
@@ -125,16 +125,16 @@ footer{
 }
 .productos h6{
     background-color :rgba(209, 207, 207, 0.855);
-    color: white;
+    color: #2b3035;
     padding: 1rem;
     margin: 1rem;
 }
 
 .productos a:hover{
     background-color: black;
-    color: white;
+    color: #2b3035;
     border-style:initial;
-    border-radius: 1%;
+    border-radius: 10%;
 }
 
 .productos a{
@@ -150,7 +150,7 @@ footer{
     margin: 5rem auto;
     height: auto;
     text-align: center;
-    color: white;
+    color: #2b3035;
 }
 .us h1{
     margin: 20px auto;   
@@ -162,7 +162,7 @@ footer{
     margin: auto;
     justify-items: center;
     align-items: center;
-    color: white;
+    color: #2b3035;
 
 }
 .where h2{
@@ -214,7 +214,7 @@ main .login{
     height: auto;
     background-color :rgba(209, 207, 207, 0.855);
     padding: 8rem;
-    color: white;
+    color: #2b3035;
     align-items:center;
 }
 
@@ -230,7 +230,7 @@ main .login{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    color: azure;
+    color: #2b3035;
 
 }
 .info{
@@ -284,7 +284,7 @@ main .login{
     main .oferta .carousel-item {
         width: 100%;
         margin: 0 auto;
-        padding: 1px; 
+        padding: 1pxclear; 
     }
     main .destacados .brands .img1{
         margin: 1rem;
@@ -307,7 +307,6 @@ main .login{
         width: fit-content;
         height: auto;
         padding: 0;
-        height: auto;
         margin-top: 1rem;
         margin-bottom: 1rem;
     } 
@@ -326,11 +325,10 @@ main .login{
         height: auto;
         padding: 1rem;
         margin: 1rem;
-        color: azure;
+        
     }
     .productos h6{
         background-color :rgba(209, 207, 207, 0.855);
-        color: white;
         width: 80%;
         margin: auto;
         
@@ -375,7 +373,6 @@ main .login{
         height: auto;
         padding: 1rem;
         margin: 1rem;
-        color: azure;
     }
 
     .cart{
