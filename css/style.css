@@ -89,7 +89,7 @@ main .destacados .brands h3{
     color: #2b3035;
 }
 
-
+/*footer*/
 
 
 footer{
@@ -104,9 +104,10 @@ footer{
     justify-content: space-between;
     color: #2b3035;
 }
- 
 
+/*fooeter*/
 
+/*Pagina de Productos*/
 
 .productos {
     display: grid;
@@ -141,7 +142,7 @@ footer{
     text-decoration: none;
 }
 
-
+/* Pagina de Nosotros - Contacto*/
 
 .us{
     background-color :rgba(209, 207, 207, 0.855);
@@ -204,7 +205,7 @@ footer{
 }
 
 
-
+/* Pagina de Ingreso*/
 
 
 main .login{
@@ -221,8 +222,7 @@ main .login{
 
 
 
-
-
+/* Pagina de Carrito */
 .compra{
     width: 90%;
     max-height: fit-content;
@@ -272,7 +272,7 @@ main .login{
 
 }
 
-
+/* Media queries */
 
 @media only screen and (max-width: 600px){
 
