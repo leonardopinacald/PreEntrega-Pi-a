@@ -1,0 +1,18 @@
+footer{
+    background-color:$color-caja; 
+    color: $color-nav-dark;
+    width: 95%;
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    p{
+        text-align: center;
+        justify-content: center;
+    }
+
+}

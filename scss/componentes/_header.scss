@@ -1,0 +1,19 @@
+header{
+    width: 100%;
+    margin: 0 0 auto;
+    .menu{
+        margin: 0;
+        background-color: $color-nav-dark;
+        a{
+        color:  whitesmoke;
+        text-decoration: none;
+        } 
+    }    
+    .menu a:hover{
+        background-color: black;
+        color: white;
+        border-style:initial;
+        border-radius: 1%;
+    }
+
+}
