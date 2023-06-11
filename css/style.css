@@ -272,6 +272,21 @@ main {
             width: 90%;
             
            }
+
+           .productos {
+            width: 95%;
+          }
+            .productos .prod-box {
+              width: 90%;
+              height: auto;
+              justify-items: center;
+              align-items: center;
+            }
+              .productos .prod-box img {
+                width: 95%;
+                height: auto;
+              }
+          
         
            .compra {
             width: 90%;
