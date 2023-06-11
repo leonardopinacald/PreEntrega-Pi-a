@@ -129,21 +129,29 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     .prod-box{
-        width: 250px;
+        width: 350px;
+        height: 500px;
         background-color: $color-caja;
-        margin: 2rem;
-        padding: 1.5rem;
+        margin: 1rem;
+        padding: 1rem;
         border-radius: 10px;
+        justify-items: center;
+        text-align: center;
         justify-items: center;
         img{
             width: 200px;
             height: 200px;
             padding-bottom: 0.5rem;
         }
-        h3{
+        img:hover{
+            transform: scale(1,1.1);
+            border-radius: 20px;
+            background-color: $color-nav-dark;
+            transition: all 1s;
+        }
+        h4{
             padding: 1rem;
             margin: 2rem;
-            text-align: center;
         } 
         a{
             text-decoration: none;

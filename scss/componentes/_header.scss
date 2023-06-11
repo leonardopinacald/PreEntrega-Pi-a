@@ -1,6 +1,10 @@
 header{
     width: 100%;
     margin: 0 0 auto;
+    img:hover{
+        transform: scale(1,1.1);
+        border-radius: 10px;
+    }
     .menu{
         margin: 0;
         background-color: $color-nav-dark;
@@ -13,7 +17,10 @@ header{
         background-color: black;
         color: white;
         border-style:initial;
-        border-radius: 1%;
+        border-radius: 10px;
+        transform: scale(1,1.1);
+        transition: 0.5s;
     }
+   
 
 }

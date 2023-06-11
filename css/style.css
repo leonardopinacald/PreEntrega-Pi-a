@@ -2,6 +2,9 @@
 header {
   width: 100%;
   margin: 0 0 auto; }
+  header img:hover {
+    transform: scale(1, 1.1);
+    border-radius: 10px; }
   header .menu {
     margin: 0;
     background-color: #2b3035; }
@@ -12,7 +15,9 @@ header {
     background-color: black;
     color: white;
     border-style: initial;
-    border-radius: 1%; }
+    border-radius: 10px;
+    transform: scale(1, 1.1);
+    transition: 0.5s; }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -35,8 +40,7 @@ footer {
   border-radius: 10px; }
   footer p {
     text-align: center;
-    justify-content: center; 
-  }
+    justify-content: center; }
 
 main {
   width: 100%;
@@ -137,20 +141,27 @@ main {
   flex-wrap: wrap;
   justify-content: center; }
   .productos .prod-box {
-    width: 250px;
+    width: 350px;
+    height: 500px;
     background-color: rgba(228, 228, 228, 0.867);
-    margin: 2rem;
-    padding: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 10px;
+    justify-items: center;
+    text-align: center;
     justify-items: center; }
     .productos .prod-box img {
       width: 200px;
       height: 200px;
       padding-bottom: 0.5rem; }
-    .productos .prod-box h3 {
+    .productos .prod-box img:hover {
+      transform: scale(1, 1.1);
+      border-radius: 20px;
+      background-color: #2b3035;
+      transition: all 1s; }
+    .productos .prod-box h4 {
       padding: 1rem;
-      margin: 2rem;
-      text-align: center; }
+      margin: 2rem; }
     .productos .prod-box a {
       text-decoration: none;
       color: #2b3035; }
@@ -200,117 +211,3 @@ main {
   background-color: rgba(228, 228, 228, 0.867);
   border-radius: 10px;
   justify-items: center; }
-
- /* Media queries */
-
-@media only screen and (max-width: 575px){
-
-
-
-
-  main{
-      width: 100%;
-      align-items: center;
-  }
-  footer{
-    width: 90%;
-    margin: auto;
-  }
-  .oferta {
-    margin: 1rem;
-    width: fit-content;
-  }
-  
-  .destacados {
-    justify-content: center;
-    align-items: center; 
-  }
-    .destacados .prod {
-      width: 95%;
-    }
-    .destacados .brands {
-      width: 95%; 
-    }
-      .destacados .brands .box {
-        margin: 1rem;
-        padding: 1rem;
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-
-      }
-        .destacados .brands .box h3 {
-          padding: 0.5rem;
-          margin: 0.5rem;
-          text-align: center; 
-        }
-          .us-contacto .us {
-            width: 30rem;
-            height: auto;                  
-          }
-
-          .us-contacto .where h2 {
-            width: 20rem;
-            text-align: center;
-            align-items: center;
-            justify-items: center;           
-          }
-          .us-contacto .where .maps {
-            width: 80%;
-            margin: auto;
-            justify-items: center;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            flex-wrap: wrap; 
-          }
-          .us-contacto .where .map1 {
-            width: 90%;
-
-           }
-          .us-contacto .where .map2 {
-            width: 90%;
-            
-           }
-
-           .productos {
-            width: 95%;
-          }
-            .productos .prod-box {
-              width: 90%;
-              height: auto;
-              justify-items: center;
-              align-items: center;
-            }
-              .productos .prod-box img {
-                width: 95%;
-                height: auto;
-              }
-          
-        
-           .compra {
-            width: 90%;
-
-            }
-            .compra .info {
-              width: 90%;
-              height: auto;
-
-            }
-            .compra .cart{
-              background-color: rgba(228, 228, 228, 0.867);
-              width: 90%;
-              height: auto;
-            }
-
-            .login {
-              width: 90%;
-              height: auto;
-
-            }
-            
-
-           
-
-    
-}
